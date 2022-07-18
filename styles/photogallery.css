@@ -30,5 +30,10 @@ h3 {
     font-size: 18px;
     letter-spacing: 10%; 
 }
+  .menu-logo {
+    width: 30px;
+    margin: 0;
+  }
+
 /* font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;

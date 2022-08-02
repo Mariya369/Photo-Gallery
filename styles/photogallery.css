@@ -17,7 +17,6 @@
   }
 
 .hero {
-  background-color: var(--secondary-color);
   width: 1440px;
   height: 900px;
 }
@@ -25,7 +24,7 @@
 .caption {
   width: 594px;
   height: 323px;
-  background-color: var(--default-color);
+
   text-align: center;
   position: absolute;
   margin-left: 423px;
@@ -84,5 +83,26 @@
   margin: 100px 144px 200px 144px;
 }
 
+.row1, .row2, .row3, .row4 {
+  display: flex;
+  width: 1152px;
+  height: 280px;
+}
+
+.row1 {
+  margin-bottom: 10px;
+}
+
+.row2 {
+  margin-bottom: 70px;
+}
+
+.row3 {
+  margin-bottom: 40px;
+}
+
+.col1 {
+  margin-right: 40px;
+}
 
 

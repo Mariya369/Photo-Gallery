@@ -83,7 +83,7 @@
   margin: 100px 144px 200px 144px;
 }
 
-.row1, .row2, .row3, .row4 {
+.row .row1, .row2, .row3, .row4 {
   display: flex;
   width: 1152px;
   height: 280px;

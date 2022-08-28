@@ -4,6 +4,7 @@
   --primary-color: #FFFFFF;
   --secondary-color: #202020;
   ---default-color: #272142;
+  --design-color: #F65282;
 }
 
  /* .menu-logo {
@@ -49,7 +50,6 @@
 
 .hero h1 {   
   font-weight: bold;
-  line-height: 30px;
   font-size: 72px;
   line-height: 84.38px;
   letter-spacing: 0.1em;
@@ -105,4 +105,81 @@
   margin-right: 40px;
 }
 
+.about {
+  width: 1440px;
+  height: 1480px;
+}
 
+.about-caption {
+  width: 560px;
+  height: 639px;
+  margin-left: 740px;
+  margin-bottom: 92px;
+}
+
+.about-caption h2 {
+  color: var(--design-color);
+   width: 102px;
+   height: 21px;
+    line-height: 22px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    display: inline;
+ 
+}
+
+
+.about-caption h1 {
+  font-family: var(--heading-font-family);
+  color: var(--primary-color);
+  width: 553px;
+  height: 75px;
+  font-weight: 700;
+font-size: 64px;
+letter-spacing: 0.1em;
+}
+
+.about-caption p {
+  color: var(--primary-color);
+  font: var(--heading-font-family);
+  width: 560px;
+  height: 90px;
+  font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 110px;
+    letter-spacing: 0;
+}
+ .social {
+  color: var(--primary-color);
+  margin-top: 50px;
+  margin-bottom: 66px;
+ }
+
+ .camera {
+  margin-bottom: 32px;
+}
+.about-caption row {
+  width: 423px;
+  height: 80.57px;
+  margin-top: 32px;
+  border-radius: 4px;
+}
+
+.col-2 {
+  color: var(--primary-color);
+}
+ .btn-contact {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: var(--default-font-family);
+  font-size: 14px;
+  border-radius: 50px;
+  line-height: 17%;
+  text-decoration: none;
+  padding: 18px 30px 18px 30px;
+  letter-spacing: 0;
+  margin-top: 120px;
+ 
+ }

@@ -16,7 +16,9 @@
     height: 2440px;
     background-color: var(--secondary-color);
   }
-
+  .nav-link {
+    color: white !important;
+    }
 .hero {
   width: 1440px;
   height: 900px;

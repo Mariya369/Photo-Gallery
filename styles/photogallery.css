@@ -83,7 +83,7 @@
   margin: 100px 144px 200px 144px;
 }
 
-.row .row1, .row2, .row3, .row4 {
+.row .row1, .row2, .row3, .row4, .row5 {
   display: flex;
   width: 1152px;
   height: 280px;
@@ -108,6 +108,7 @@
 .about {
   width: 1440px;
   height: 1480px;
+  background-color: #1B1B1B;
 }
 
 .about-caption {
@@ -137,9 +138,9 @@
   font-style: normal;
   font-weight: 700;
 font-size: 64px;
-margin-top: 32px;
 letter-spacing: 0.1em;
-display: inline;
+text-align: justify;
+margin-top: 32px;
 }
 
 .about-caption p {
@@ -161,20 +162,24 @@ display: inline;
  }
 
  .camera {
- display: inline;
+ margin-bottom: 32px;
+ width: 119px;
+ height: 21px;
+ font-size: 18px;
 }
 .about-caption row {
   background-color: #2D2727;
   width: 423px;
   height: 80.57px;
-  margin-top: 32px;
-  margin-bottom: 100px;
   border-radius: 4px;
-  padding: 20px;
-  color: var(--primary-color);
+  padding: 20px 25.28px;
+  display: flex;
+  flex-direction: row;
 }
 
-
+.about-caption col {
+  color: var(--primary-color);
+}
  .btn-contact {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -188,5 +193,14 @@ display: inline;
   width: 200px;
   height: 53px;
   border-radius: 50px;
+  margin-bottom: 66.43px;
  }
-
+ .row5  {
+  margin-left: 144px;
+  margin-right: 144px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+ .row5 col3 {
+  margin-right: 40px;
+ }

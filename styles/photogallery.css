@@ -115,6 +115,7 @@
   height: 639px;
   margin-left: 740px;
   margin-bottom: 92px;
+  margin-top: -660px;
 }
 
 .about-caption h2 {
@@ -125,8 +126,7 @@
     font-size: 18px;
     letter-spacing: 0.1em;
     display: inline;
- 
-}
+    }
 
 
 .about-caption h1 {
@@ -134,9 +134,12 @@
   color: var(--primary-color);
   width: 553px;
   height: 75px;
+  font-style: normal;
   font-weight: 700;
 font-size: 64px;
+margin-top: 32px;
 letter-spacing: 0.1em;
+display: inline;
 }
 
 .about-caption p {
@@ -148,7 +151,7 @@ letter-spacing: 0.1em;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    margin-top: 110px;
+    margin-top: 34px;
     letter-spacing: 0;
 }
  .social {
@@ -158,18 +161,20 @@ letter-spacing: 0.1em;
  }
 
  .camera {
-  margin-bottom: 32px;
+ display: inline;
 }
 .about-caption row {
+  background-color: #2D2727;
   width: 423px;
   height: 80.57px;
   margin-top: 32px;
+  margin-bottom: 100px;
   border-radius: 4px;
-}
-
-.col-2 {
+  padding: 20px;
   color: var(--primary-color);
 }
+
+
  .btn-contact {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -178,8 +183,10 @@ letter-spacing: 0.1em;
   border-radius: 50px;
   line-height: 17%;
   text-decoration: none;
-  padding: 18px 30px 18px 30px;
+  padding: 18px 44.5px 18px 44.5px;
   letter-spacing: 0;
-  margin-top: 120px;
- 
+  width: 200px;
+  height: 53px;
+  border-radius: 50px;
  }
+

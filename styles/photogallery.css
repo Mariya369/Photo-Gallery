@@ -118,7 +118,7 @@
   height: 639px;
   margin-left: 740px;
   margin-bottom: 92px;
-  margin-top: -660px;
+  margin-top: -740px;
 }
 
 .about-caption h2 {
@@ -128,7 +128,6 @@
     line-height: 22px;
     font-size: 18px;
     letter-spacing: 0.1em;
-    display: inline;
     }
 
 
@@ -164,22 +163,23 @@ margin-top: 32px;
  }
 
  .camera {
- margin-bottom: 32px;
  width: 119px;
  height: 21px;
  font-size: 18px;
+ display: inline;
+
 }
-.about-caption row {
+
+.about-caption .row-camera {
   background-color: #2D2727;
   width: 423px;
   height: 80.57px;
   border-radius: 4px;
   padding: 20px 25.28px;
-  display: flex;
-  flex-direction: row;
+  margin-top: 32px;
 }
 
-.about-caption col {
+.row-camera col {
   color: var(--primary-color);
 }
  .btn-contact {
@@ -195,7 +195,7 @@ margin-top: 32px;
   width: 200px;
   height: 53px;
   border-radius: 50px;
-  margin-bottom: 66.43px;
+
  }
  .row5  {
   margin-left: 144px;

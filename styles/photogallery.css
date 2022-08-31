@@ -27,7 +27,6 @@
 .caption {
   width: 594px;
   height: 323px;
-
   text-align: center;
   position: absolute;
   margin-left: 423px;
@@ -85,8 +84,8 @@
   margin: 100px 144px 200px 144px;
 }
 
-.row .row1, .row2, .row3, .row4, .row5 {
-  display: flex;
+.row1, .row2, .row3, .row4, .row5 {
+ display: flex;
   width: 1152px;
   height: 280px;
 }
@@ -119,6 +118,7 @@
   margin-left: 740px;
   margin-bottom: 92px;
   margin-top: -740px;
+  
 }
 
 .about-caption h2 {
@@ -128,6 +128,7 @@
     line-height: 22px;
     font-size: 18px;
     letter-spacing: 0.1em;
+    display: inline;
     }
 
 
@@ -177,6 +178,7 @@ margin-top: 32px;
   border-radius: 4px;
   padding: 20px 25.28px;
   margin-top: 32px;
+  margin-bottom: 66.43px;
 }
 
 .row-camera col {

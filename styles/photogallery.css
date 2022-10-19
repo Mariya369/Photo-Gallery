@@ -16,53 +16,67 @@
     height: 2440px;
     background-color: var(--secondary-color);
   }
-  .nav-link {
+  .nav {
     color: white !important;
+    width: 1440px;
+    height: 118px;
     }
+    .logo {
+      max-width: 150px;
+      max-height: 24.75px;
+      margin-top: 48px;
+      margin-left: 140px;
+    }
+ 
+
 .hero {
   width: 1440px;
   height: 900px;
 }
 
 .caption {
-  width: 594px;
+  width: 595px;
   height: 323px;
   text-align: center;
   position: absolute;
   margin-left: 423px;
-  margin-top: 276px;
-  margin-bottom: 301px;
+  margin-top: -630px;
+  margin-bottom: 0px;
   border-radius: 50px;
 }
 
-.hero h1, h2, p {
+.caption h1, h2, p {
   color: var(--primary-color);
   font-family: var(--heading-font-family);
 }
 
-.hero h2 {
+.caption h2 {
   display: inline;
     font-weight: bold;
     line-height: 28px;
     font-size: 24px;
     letter-spacing: 0.1em; 
-    text-transform: uppercase;  
+    text-transform: uppercase;
   }
 
-.hero h1 {   
+.caption h1 {   
   font-weight: bold;
   font-size: 72px;
   line-height: 84.38px;
   letter-spacing: 0.1em;
-  
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-.hero p {
+.caption p {
   font: var(--heading-font-family);
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     letter-spacing: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 66px;
 }
 
 
@@ -71,11 +85,15 @@
   color: var(--secondary-color);
   font-family: var(--default-font-family);
   font-size: 14px;
+  width: 200px;
+  height: 53px;
   border-radius: 50px;
   line-height: 17%;
   text-decoration: none;
-  padding: 18px 30px 18px 30px;
-  letter-spacing: 0;
+  padding: 18px 40px 18px 40px;
+  letter-spacing: 0.1em;
+  width: 200px;
+  height: 53px;
 }
 
 .container {

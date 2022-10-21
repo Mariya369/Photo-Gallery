@@ -7,16 +7,23 @@
   --design-color: #F65282;
 }
 
- /* .menu-logo {
-    width: 30px;
-    margin: 0;
-  } */
+  html, 
   body {
     width: 1440px;
     height: 2440px;
     background-color: var(--secondary-color);
+    margin: 0;
     padding: 0;
-    margin-left: 150px;
+  }
+
+  html {
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+    min-width: 100%;
+    min-height: 100%;
   }
   nav {
     color: white !important;
@@ -124,29 +131,26 @@
 .container {
   width: 1440px;
   height: 1540px;
-  margin: 100px 144px 200px 144px;
+  margin: 100px 144px 100px 144px;
 }
 
 .row1, .row2, .row3, .row4, .row5 {
  display: flex;
   width: 1152px;
   height: 280px;
+  gap: 40px;
 }
 
 .row1 {
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 .row2 {
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 
 .row3 {
   margin-bottom: 40px;
-}
-
-.col1 {
-  margin-right: 40px;
 }
 
 .about {

@@ -14,8 +14,8 @@ body {
 }
 
 nav {
-  color: white !important;
- margin: 48px 140px 45.25px 140px;
+color: white !important;
+margin: 48px 140px 45.25px 140px;
 }
 .logo {
   width: 150px;
@@ -111,15 +111,27 @@ p {
   letter-spacing: 0.1em;
 }
  
-row {
-  width: 1152px;
-  height: 280px;
+.container {
+  width: 1440px;
+  height: 1540px;
 }
 
-col {
-  padding: 0;
+.row {
+  width: 1152px;
+  height: 280px;
   margin-bottom: 40px;
 }
+
+.col {
+  gap: 40px;
+}
+
+.col img {
+vertical-align: middle;
+}
+
+
+
 .about {
   background-color: #1b1b1b;
 }

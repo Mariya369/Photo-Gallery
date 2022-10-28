@@ -14,12 +14,12 @@ body {
 }
 
 nav {
-color: white !important;
-margin: 48px 140px 45.25px 140px;
+  color: white !important;
+  padding: 15px;
 }
 .logo {
-  width: 150px;
-  height: 24.75px;
+  max-width: 150px;
+  max-height: 24.75px;
 }
 
 nav ul {
@@ -42,7 +42,6 @@ nav a {
 
 .hero {
   position: relative;
-  margin-bottom: 100px;
 }
 
 .caption {
@@ -114,23 +113,25 @@ p {
 .container {
   width: 1440px;
   height: 1540px;
+  margin: 100px 144px 100px 144px;
+  display: grid;
 }
 
 .row {
   width: 1152px;
   height: 280px;
-  margin-bottom: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 .col {
-  gap: 40px;
+margin-right: 40px;
+display: grid;
 }
 
 .col img {
-vertical-align: middle;
+  
 }
-
-
 
 .about {
   background-color: #1b1b1b;
@@ -226,3 +227,4 @@ vertical-align: middle;
 .row5 col3 {
   margin-right: 40px;
 }
+

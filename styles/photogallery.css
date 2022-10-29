@@ -7,15 +7,20 @@
   --design-color: #f65282;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   background-color: var(--secondary-color);
-  margin: 0;
+  padding: 10px;
 }
 
 nav {
   color: white !important;
-  padding: 15px;
 }
 .logo {
   max-width: 150px;
@@ -109,30 +114,15 @@ p {
   padding: 24px 40px 18px 40px;
   letter-spacing: 0.1em;
 }
- 
-.container {
-  width: 1440px;
-  height: 1540px;
-  margin: 100px 144px 100px 144px;
-  display: grid;
-}
-
 .row {
-  width: 1152px;
-  height: 280px;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 1em;
+  grid-row-start: auto;
 }
-
-.col {
-margin-right: 40px;
-display: grid;
+img {
+  max-width: 1vw;
+  height: 1vh;
+  vertical-align: middle;
 }
-
-.col img {
-  
-}
-
 .about {
   background-color: #1b1b1b;
 }

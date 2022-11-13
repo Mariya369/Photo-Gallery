@@ -5,8 +5,8 @@
   --secondary-color: #202020;
   ---default-color: #272142;
   --design-color: #f65282;
+  -footer-default-color: #282323;
 }
-
 
 html,
 body {
@@ -96,6 +96,11 @@ p {
   height: 60px;
 }
 
+row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .btn-branding {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -109,25 +114,14 @@ p {
   padding: 24px 40px 18px 40px;
   letter-spacing: 0.1em;
 }
-.row {
-  margin-bottom: 1em;
-  grid-row-start: auto;
-}
-img {
-  max-width: 1vw;
-  height: 1vh;
-  vertical-align: middle;
-}
-.about {
+
+.about-hero {
   background-color: #1b1b1b;
 }
 
 .about-caption {
   width: 560px;
   height: 639px;
-  margin-left: 740px;
-  margin-bottom: 92px;
-  margin-top: -740px;
 }
 
 .about-caption h2 {
@@ -165,9 +159,6 @@ img {
   margin-top: 34px;
   letter-spacing: 0;
 }
-.social {
-  color: var(--primary-color);
-}
 
 .camera {
   width: 119px;
@@ -203,13 +194,21 @@ img {
   height: 53px;
   border-radius: 50px;
 }
-.row5 {
-  margin-left: 144px;
-  margin-right: 144px;
-  margin-top: 100px;
-  margin-bottom: 200px;
-}
-.row5 col3 {
-  margin-right: 40px;
-}
 
+footer a, i, small {
+color: var(--primary-color);
+text-decoration: none;
+}
+ .social-links {
+  width: 102px;
+  height: 18px;
+  gap: 30px;
+ }
+ footer {
+width: 1440px;
+height: 100px;
+background-color: var(-footer-default-color);
+padding: 40px 15px;
+margin-right: 0;
+}
+ 

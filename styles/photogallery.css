@@ -96,11 +96,6 @@ p {
   height: 60px;
 }
 
-row {
-  margin-left: 0;
-  margin-right: 0;
-}
-
 .btn-branding {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -115,6 +110,10 @@ row {
   letter-spacing: 0.1em;
 }
 
+.container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 .about-hero {
   background-color: #1b1b1b;
 }
@@ -159,6 +158,7 @@ row {
   margin-top: 34px;
   letter-spacing: 0;
 }
+
 
 .camera {
   width: 119px;

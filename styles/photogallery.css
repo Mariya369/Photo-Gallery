@@ -111,9 +111,19 @@ p {
 }
 
 .container {
-  margin-top: 100px;
+  margin-top: 60px;
   margin-bottom: 100px;
 }
+
+.row {
+  margin-top: 40px;
+  width: 1152px;
+  
+}
+.col {
+  width: fit-content;
+}
+
 .about-hero {
   background-color: #1b1b1b;
 }

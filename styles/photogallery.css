@@ -121,9 +121,9 @@ p {
   margin-right: 144px;
 }
 
-.row {
-  width: 1152px;
-  height: 280px;
+.img-wrapper {
+  width: 100%;
+  height: 100%;
 }
 
 .about-hero {

@@ -134,7 +134,9 @@ height: 100%;
 }
 .about-hero {
   background-color: #1b1b1b;
+  padding: 40px;
 }
+
 
 .about-caption {
   width: 560px;

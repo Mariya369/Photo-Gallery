@@ -125,12 +125,11 @@ display: grid;
 .wrapper {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 .image {
 width: 100%;
 height: 100%;
-
+object-fit: cover;
 }
 .about-hero {
   background-color: #1b1b1b;
@@ -141,6 +140,8 @@ height: 100%;
 .about-caption {
   width: 560px;
   height: 639px;
+  margin-top: 40px;
+  margin-right: 0;
 }
 
 .about-caption h2 {
@@ -151,6 +152,7 @@ height: 100%;
   font-size: 18px;
   letter-spacing: 0.1em;
   display: inline;
+  margin-bottom: 60px;
 }
 
 .about-caption h1 {
@@ -162,8 +164,8 @@ height: 100%;
   font-weight: 700;
   font-size: 64px;
   letter-spacing: 0.1em;
-  text-align: justify;
-  margin-top: 32px;
+display: table-row;
+
 }
 
 .about-caption p {
@@ -175,7 +177,7 @@ height: 100%;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  margin-top: 34px;
+  margin-top: 14px;
   letter-spacing: 0;
 }
 

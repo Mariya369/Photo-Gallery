@@ -127,6 +127,7 @@ width: 100%;
 height: 100%;
 object-fit: cover;
 }
+
 .about-hero {
   background-color: #1b1b1b;
   padding: 40px;
@@ -241,6 +242,7 @@ height: 19px;
   width: 102px;
   height: 18px;
   gap: 30px;
+  color: var(--primary-color);
  }
 
  

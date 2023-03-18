@@ -44,10 +44,6 @@ nav a {
   color: var(--primary-color);
 }
 
-.hero {
-  position: relative;
-}
-
 .caption {
   text-align: center;
   position: absolute;
@@ -205,6 +201,7 @@ display: table-row;
   font-size: 18px;
   width: 283px;
   height: 30px;
+  
 }
 
 .img-camera {
@@ -223,6 +220,7 @@ display: table-row;
   border-radius: 50px;
   margin-top: 66px;
 }
+
 
 footer {
   width: 1440px;

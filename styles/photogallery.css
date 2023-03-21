@@ -12,7 +12,7 @@ html,
 body {
 background-color: var(--secondary-color);
 width:100%;
-overflow-x: hidden;
+overflow-x: hidden !important;
 background-size: cover;
 background-repeat: no repeat;
 padding: 10px;
@@ -130,6 +130,7 @@ p {
 }
 
 .container {
+
   margin-top: 100px;
   margin-bottom: 100px;
 width: 100%;
